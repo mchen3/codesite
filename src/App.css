@@ -26,3 +26,27 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	text-align: center; 
+	color: red;
+
+}
+
+h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 3em;
+	text-align: center; 
+	color: greenyellow;
+
+}
+
+.testDiv {
+	color: palegreen;
+	font-size: 2em;
+
+}
