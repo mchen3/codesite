@@ -1,15 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-// import './assets/css/main.css';
+import './Sandbox.css';
 
-import  { Header } from './components/Header';
-import  { Menu } from './components/Menu';
-import  { Banner } from './components/Banner';
-import  { Footer } from './components/Footer';
-import  { Sections } from './components/Sections';
-import  { Contact } from './components/Contact';
-
-class App extends Component {
+class Sandbox extends Component {
   render() {
     return (
       <div>
@@ -35,7 +27,21 @@ function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-export default App;
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+export default Sandbox;
 
 
 
