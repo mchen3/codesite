@@ -73,7 +73,6 @@ class Sections extends Component {
 									</ul>
 								</div>
 							</section>
-
 				</div>	
     );
   }
